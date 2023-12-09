@@ -66,80 +66,92 @@ You will also see any lint errors in the console.
 ![image](https://github.com/Ironblade1/Appointment-schedular/assets/83993262/83893549-f2d8-470e-a5a0-780cda0cd301)
 
   
-Component Description
-<p>  
-AppointmentList.js:
+# Component Description
 
-Manages and displays a list of appointments. Retrieves data from local storage (AppointmentList) and provides functionality for adding and editing appointments.
+<p style="font-size: 16px;">
+  <strong>AppointmentList.js:</strong>
+  Manages and displays a list of appointments. Retrieves data from local storage (AppointmentList) and provides functionality for adding and editing appointments.
 
-Calender.js:
-Displays appointments in a calendar using the Syncfusion Scheduler component. Retrieves appointment data from local storage and maps it to the required format for the Scheduler.
+  <strong>Calender.js:</strong>
+  Displays appointments in a calendar using the Syncfusion Scheduler component. Retrieves appointment data from local storage and maps it to the required format for the Scheduler.
 
-Card.js:
-A generic card component that can be used for displaying information in a card format. Used across the application for consistent styling.
+  <strong>Card.js:</strong>
+  A generic card component that can be used for displaying information in a card format. Used across the application for consistent styling.
 
-Footer.js:
-Footer component for the website. Provides information, links, or any other relevant content that should be displayed at the bottom of the page.
+  <strong>Footer.js:</strong>
+  Footer component for the website. Provides information, links, or any other relevant content that should be displayed at the bottom of the page.
 
-Header.js:
-Header component for the website. Typically includes navigation links, branding, or other elements that should be displayed at the top of the page.
+  <strong>Header.js:</strong>
+  Header component for the website. Typically includes navigation links, branding, or other elements that should be displayed at the top of the page.
 
-Home.js:
-Home page component. Acts as the main landing page for the website and may include an overview of the services or key information.
+  <strong>Home.js:</strong>
+  Home page component. Acts as the main landing page for the website and may include an overview of the services or key information.
 
-View.js:
-View component. Responsible for displaying a specific view or content. The exact purpose may vary based on your application's requirements.
+  <strong>View.js:</strong>
+  View component. Responsible for displaying a specific view or content. The exact purpose may vary based on your application's requirements.
+</p>
 
-Modal Descriptions:
+# Modal Descriptions
 
-Booking.js:
-Modal component for adding new appointments. Allows the user to input details such as firstName, lastName, Location, and date-time.
+<p style="font-size: 16px;">
+  <strong>Booking.js:</strong>
+  Modal component for adding new appointments. Allows the user to input details such as firstName, lastName, Location, and date-time.
 
-EditAppointment.js:
-Modal component for editing existing appointments. Similar to the Booking modal but pre-filled with the details of the selected appointment.
+  <strong>EditAppointment.js:</strong>
+  Modal component for editing existing appointments. Similar to the Booking modal but pre-filled with the details of the selected appointment.
+</p>
 
-Other Files:
+# Other Files
 
-App.css:
-Global styles that apply to the entire application.
+<p style="font-size: 16px;">
+  <strong>App.css:</strong>
+  Global styles that apply to the entire application.
 
-**index.js:**
-Entry point for the React application. Renders the App component into the root HTML element.
+  <strong>index.js:</strong>
+  Entry point for the React application. Renders the App component into the root HTML element.
 
-**package.json:**
-<strong>Configuration file for the Node.js project. Contains metadata about the project and a list of dependencies.<strong>
+  <strong>package.json:</strong>
+  Configuration file for the Node.js project. Contains metadata about the project and a list of dependencies.
+</p>
 
-**How it Works:**
+# How it Works
 
-**Data Storage:**
-Appointment data is stored in the local storage under the key AppointmentList.
+<p style="font-size: 16px;">
+  <strong>Data Storage:</strong>
+  Appointment data is stored in the local storage under the key AppointmentList.
 
-**AppointmentList.js:**
-Manages the list of appointments, provides functionality for adding and editing appointments, and retrieves data from local storage.
+  <strong>AppointmentList.js:</strong>
+  Manages the list of appointments, provides functionality for adding and editing appointments, and retrieves data from local storage.
 
-**Calender.js:**
-Uses the Syncfusion Scheduler component to display appointments in a calendar format. Retrieves appointment data from local storage and formats it appropriately.
+  <strong>Calender.js:</strong>
+  Uses the Syncfusion Scheduler component to display appointments in a calendar format. Retrieves appointment data from local storage and formats it appropriately.
 
-**Modal Components:**
-Booking.js allows users to add new appointments, and EditAppointment.js allows users to edit existing appointments.
+  <strong>Modal Components:</strong>
+  Booking.js allows users to add new appointments, and EditAppointment.js allows users to edit existing appointments.
 
-**Components:**
-Various components (Card.js, Footer.js, Header.js, etc.) contribute to the overall structure and layout of the website, promoting modularity and reusability.
+  <strong>Components:</strong>
+  Various components (Card.js, Footer.js, Header.js, etc.) contribute to the overall structure and layout of the website, promoting modularity and reusability.
 
-**CSS Styles:**
-Styles are defined in App.css for consistent styling across the application.
+  <strong>CSS Styles:</strong>
+  Styles are defined in App.css for consistent styling across the application.
+</p>
 
-**How to Use:**
+# How to Use
 
-**Adding/Editing Appointments:**
-Use the Booking modal to add new appointments, and the EditAppointment modal to edit existing appointments.
+<p style="font-size: 16px;">
+  <strong>Adding/Editing Appointments:</strong>
+  Use the Booking modal to add new appointments, and the EditAppointment modal to edit existing appointments.
 
-**Viewing Appointments:**
-The Calender component displays appointments in a calendar format, providing views for the current date, week, and month.
+  <strong>Viewing Appointments:</strong>
+  The Calender component displays appointments in a calendar format, providing views for the current date, week, and month.
 
-**Navigation:**
-Header and footer components may include navigation links to different sections or pages within the website  "/view" - link to Calender Page, "/AppointmentList" - link to Appointment-List.
+  <strong>Navigation:</strong>
+  Header and footer components may include navigation links to different sections or pages within the website  "/view" - link to Calender Page, "/AppointmentList" - link to Appointment-List.
 
-**Data Storage:**
+  <strong>Data Storage:</strong>
+  Appointment data is stored in the local storage under the key AppointmentList.
+</p>
 
-Appointment data is stored in the local storage under the key AppointmentList. <p/>
+  **Data Storage:**
+  Appointment data is stored in the local storage under the key AppointmentList.
+</p>
