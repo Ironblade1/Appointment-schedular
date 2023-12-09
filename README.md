@@ -58,3 +58,88 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
+<br/>
+
+
+<h1>Project Structure: <h1/>
+
+![image](https://github.com/Ironblade1/Appointment-schedular/assets/83993262/83893549-f2d8-470e-a5a0-780cda0cd301)
+
+  
+Component Description
+<p>  
+AppointmentList.js:
+
+Manages and displays a list of appointments. Retrieves data from local storage (AppointmentList) and provides functionality for adding and editing appointments.
+
+Calender.js:
+Displays appointments in a calendar using the Syncfusion Scheduler component. Retrieves appointment data from local storage and maps it to the required format for the Scheduler.
+
+Card.js:
+A generic card component that can be used for displaying information in a card format. Used across the application for consistent styling.
+
+Footer.js:
+Footer component for the website. Provides information, links, or any other relevant content that should be displayed at the bottom of the page.
+
+Header.js:
+Header component for the website. Typically includes navigation links, branding, or other elements that should be displayed at the top of the page.
+
+Home.js:
+Home page component. Acts as the main landing page for the website and may include an overview of the services or key information.
+
+View.js:
+View component. Responsible for displaying a specific view or content. The exact purpose may vary based on your application's requirements.
+
+Modal Descriptions:
+
+Booking.js:
+Modal component for adding new appointments. Allows the user to input details such as firstName, lastName, Location, and date-time.
+
+EditAppointment.js:
+Modal component for editing existing appointments. Similar to the Booking modal but pre-filled with the details of the selected appointment.
+
+Other Files:
+
+App.css:
+Global styles that apply to the entire application.
+
+**index.js:**
+Entry point for the React application. Renders the App component into the root HTML element.
+
+**package.json:**
+<strong>Configuration file for the Node.js project. Contains metadata about the project and a list of dependencies.<strong>
+
+**How it Works:**
+
+**Data Storage:**
+Appointment data is stored in the local storage under the key AppointmentList.
+
+**AppointmentList.js:**
+Manages the list of appointments, provides functionality for adding and editing appointments, and retrieves data from local storage.
+
+**Calender.js:**
+Uses the Syncfusion Scheduler component to display appointments in a calendar format. Retrieves appointment data from local storage and formats it appropriately.
+
+**Modal Components:**
+Booking.js allows users to add new appointments, and EditAppointment.js allows users to edit existing appointments.
+
+**Components:**
+Various components (Card.js, Footer.js, Header.js, etc.) contribute to the overall structure and layout of the website, promoting modularity and reusability.
+
+**CSS Styles:**
+Styles are defined in App.css for consistent styling across the application.
+
+**How to Use:**
+
+**Adding/Editing Appointments:**
+Use the Booking modal to add new appointments, and the EditAppointment modal to edit existing appointments.
+
+**Viewing Appointments:**
+The Calender component displays appointments in a calendar format, providing views for the current date, week, and month.
+
+**Navigation:**
+Header and footer components may include navigation links to different sections or pages within the website  "/view" - link to Calender Page, "/AppointmentList" - link to Appointment-List.
+
+**Data Storage:**
+
+Appointment data is stored in the local storage under the key AppointmentList. <p/>
